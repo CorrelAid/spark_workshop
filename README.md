@@ -55,6 +55,35 @@ Step by Step instructs to get started local.
 
 Please install the following software in advance:
 
+#### Windows
+
+There a two approaches possible to install Docker Desktop on Windows.
+
+1. To run Docker Desktop on Windows with Hyper-V backend and Windows containers:
+
+  Open Windows Powershell as Administrator and run the following commands:
+  ```sh
+  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+  Enable-WindowsOptionalFeature -Online -FeatureName Containers -All
+  Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All
+  ```
+
+2. To run Docker Descktop on Windows with WSL (Windows Subsystem for Linux):
+
+  Open Windows Powershell as Administrator and run the following commands:
+
+  ```sh
+  wsl --install
+  ```
+  The first time you launch a newly installed Linux distribution, a console window will open and you'll be asked to wait for files to de-compress and be stored on your machine.
+  Once you have installed WSL, you will need to create a user account and password for your newly installed Linux distribution.
+
+After installation open Docker Desktop.
+
+#### Mac/Linux
+
+1. Donwload the Docker Desktop file from the Docker Website and follow instructions. After installation open Docker Desktop.
+
 
 ### Installation
 
