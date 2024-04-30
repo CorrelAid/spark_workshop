@@ -59,16 +59,7 @@ Please install the following software in advance:
 
 There a two approaches possible to install Docker Desktop on Windows.
 
-1. To run Docker Desktop on Windows with Hyper-V backend and Windows containers:
-
-  Open Windows Powershell as Administrator and run the following commands:
-  ```sh
-  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
-  Enable-WindowsOptionalFeature -Online -FeatureName Containers -All
-  Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All
-  ```
-
-2. To run Docker Descktop on Windows with WSL (Windows Subsystem for Linux):
+1. (Recommended) To run Docker Descktop on Windows with WSL (Windows Subsystem for Linux):
 
   Open Windows Powershell as Administrator and run the following commands:
 
@@ -77,6 +68,19 @@ There a two approaches possible to install Docker Desktop on Windows.
   ```
   The first time you launch a newly installed Linux distribution, a console window will open and you'll be asked to wait for files to de-compress and be stored on your machine.
   Once you have installed WSL, you will need to create a user account and password for your newly installed Linux distribution.
+
+  > :warning: **Occasionally, Ubuntu installation may terminate unexpectedly, displaying an Error Code (e.g., Error code: Wsl/InstallDistro/E_UNEXPECTED). In such cases, you may need to enable Virtual Machine within your CPU Configurations in the BIOS or activate Virtual Environment in Windows Features!**
+
+
+2. To run Docker Desktop on Windows with Hyper-V backend and Windows containers:
+
+  Open Windows Powershell as Administrator and run the following commands:
+  ```sh
+  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+  Enable-WindowsOptionalFeature -Online -FeatureName Containers -All
+  Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All
+  ```
+
 
 After installation open Docker Desktop.
 
@@ -87,14 +91,14 @@ After installation open Docker Desktop.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Please follow the instructions to setup your local programming environment. 
 
-1. Get a free PAT (Personal Access Token) at [https://example.com](https://example.com)
+1. Get a free PAT (Personal Access Token) at [https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens](https://docs.github.com/PAT)
 2. Clone the repo
    ```sh
    git clone https://github.com/CorrelAid/spark_workshop.git
    ```
-3. Install and run the PysPark Environment via:
+3. Install and run the PySpark Environment via:
     ```sh
     sh run_setup.sh
     ```
