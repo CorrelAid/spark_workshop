@@ -18,7 +18,7 @@ if command -v docker &> /dev/null; then
     echo "Docker is installed"
 
     # Check if the docker image exists
-    if docker ps --filter "name=$CONTAINER_NAME_OR_ID" --format '{{.Names}}' | grep -q "$CONTAINER_NAME_OR_ID"; then
+    if docker ps --filter "name=$IMAGE_NAME" --format '{{.Names}}' | grep -q "$IMAGE_NAME"; then
         echo "$IMAGE_NAME has been pulled. Docker container will be newly setup."
         
         # Remove the existing container
@@ -27,10 +27,9 @@ if command -v docker &> /dev/null; then
         # Create the new container
         docker_conainer_creation "$CONTAINER_NAME_OR_ID" "$IMAGE_NAME"
     else
-        echo "$IMAGE_NAME has not been pulled. Image will be pulled."
+        echo "$IMAGE_NAME has not been pulled. Image will be pulled and Container $CONTAINER_NAME_OR_ID will be set up"
+        
         docker pull "$IMAGE_NAME"
-
-        echo "Container $CONTAINER_NAME_OR_ID does not exist. Container will be set up."
         docker_conainer_creation "$CONTAINER_NAME_OR_ID" "$IMAGE_NAME"
     fi
     
