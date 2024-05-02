@@ -6,7 +6,7 @@ Taking place in the week of June 17-21, 2024.
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-Workshop">About The Workshop</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -18,27 +18,22 @@ Taking place in the week of June 17-21, 2024.
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABOUT THE Workshop -->
+## About The Workshop
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Project Description.
+Workshop Description.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list any major frameworks/libraries used to bootstrap your Workshop. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Docker][Docker-shield]][Docker-url]
 * [![GitHub][Github-shield]][Github-url]   
