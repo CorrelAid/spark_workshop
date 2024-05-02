@@ -77,26 +77,35 @@ There a two approaches possible to install Docker Desktop on Windows.
   ```
 
 
-After installation open Docker Desktop.
+3. After installation open Docker Desktop.
 
 #### Mac/Linux
 
-1. Donwload the Docker Desktop file from the Docker Website and follow instructions. After installation open Docker Desktop.
+1. Donwload the Docker Desktop file from the Docker Website and follow instructions. 
+
+2. After installation open Docker Desktop.
 
 
 ### Installation
 
 Please follow the instructions to setup your local programming environment. 
 
-1. Get a free PAT (Personal Access Token) at [https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens](https://docs.github.com/PAT)
+1. Get a free PAT (Personal Access Token) at [https://docs.github.com/PAT](https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 2. Clone the repo
    ```sh
    git clone https://github.com/CorrelAid/spark_workshop.git
    ```
-3. Install and run the PySpark Environment via:
+3. Install and run the PySpark Environment in a bash terminal via:
     ```sh
     sh run_setup.sh
     ```
+4. Open the port:
+
+TODO:Insert Link
+
+5. Insert token as password. The token is displayed in the terminal:
+
+TODO: Insert terminal image with token example.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,9 +121,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Pia Baronetzky - [@Pia Baronetzky](https://correlaid.slack.com/team/U012LQGV81K) - pia@baronetzky.org
+Daniel Manny - [@Daniel Manny](https://correlaid.slack.com/team/U013SMVNJJ1) - dmanny10@gmail.com
+Jie Bao - [@Jie Bao](https://correlaid.slack.com/team/U9L0H3J3Z) - jie.bao@gmail.com
+Luisa-Sophie Gloger - [@Luisa-Sophie Gloger](https://correlaid.slack.com/team/U06SBUAJ2HL) - luisa.gloger@gmx.de
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/CorrelAid/spark_workshop](https://github.com/CorrelAid/spark_workshop)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,8 +134,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
