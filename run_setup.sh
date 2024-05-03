@@ -25,7 +25,7 @@ if command -v docker &> /dev/null; then
     if docker images | grep -q $IMAGE_NAME; then
         echo "$IMAGE_NAME has been pulled. Docker container will be newly setup."
         
-        # Remove the existing container if it still exists 
+        # Remove the existing container if it still exists
         if docker ps -a | grep "$CONTAINER_NAME_OR_ID"; then
             container_id=$(docker ps -aqf "name=pyspark_workshop" -a)
             docker stop "$CONTAINER_NAME_OR_ID"
