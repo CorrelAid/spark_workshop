@@ -19,6 +19,7 @@ Taking place in the week of June 17-21, 2024.
       </ul>
     </li>
     <li><a href="#license">License</a></li>
+    <li><a href="#data">Data</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -99,13 +100,20 @@ Please follow the instructions to setup your local programming environment.
     ```sh
     sh run_setup.sh
     ```
-4. Open the port:
-
-TODO:Insert Link
+4. Open the port in a webbrowser:
+```sh
+  http://localhost:10001:
+```
 
 5. Insert token as password. The token is displayed in the terminal:
 
 TODO: Insert terminal image with token example.
+
+If you are not sure what the token is you can open another bash terminal and execute:
+```sh
+docker logs pyspark_workshop | grep -o 'token=[^ ]*'
+```
+This will show all logs of your Docker container that contains the token. Just check for the part where "token=" iswritten.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,6 +125,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- DATA -->
+## Data 
+The data are based on a free dataset on kaggle:
+[https://kaggle/grocery-dataset]https://www.kaggle.com/datasets/elvinrustam/grocery-dataset?resource=download
 
 <!-- CONTACT -->
 ## Contact
@@ -143,6 +155,7 @@ Project Link: [https://github.com/CorrelAid/spark_workshop](https://github.com/C
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [Kaggle]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
