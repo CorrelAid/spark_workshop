@@ -53,7 +53,7 @@ Begin by following these detailed guidelines to set up your local environment se
 Please Pre-install the following software:
 
 - Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git 
-- Docker Desktop (Please refer to the instructions below based on your operating system.)
+- Docker Desktop: https://www.docker.com/products/docker-desktop/ _(Please refer to the instructions below based on your operating system.)_
 - (Optional) IDE (e.g., VS Code or IntelliJ)
 
 #### Windows
