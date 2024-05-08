@@ -31,7 +31,7 @@ This workshop is scheduled for the week of June 17th to 21st, 2024.
 
 Join us for an engaging Spark workshop tailored for beginners, where we'll dive into both theoretical concepts and practical application. Delve into the fundamental principles of Spark, learning about its architecture, data processing capabilities, and use cases. Then, roll up your sleeves for hands-on practice, where you'll apply what you've learned in real-world scenarios. By the end of the workshop, you'll have a basic understanding of Spark and the confidence to start building your own data processing pipelines.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 ### Built With
 
@@ -41,7 +41,7 @@ This section enumerates the primary frameworks/libraries employed to initiate th
 * [![GitHub][Github-shield]][Github-url]   
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -142,14 +142,14 @@ Please follow the instructions to setup your local programming environment. Thes
     
     
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 
 <!-- DATA -->
@@ -157,7 +157,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 The data originates from a freely available dataset on Kaggle:
 [https://kaggle/grocery-dataset](https://www.kaggle.com/datasets/elvinrustam/grocery-dataset?resource=download)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
@@ -169,7 +169,7 @@ Luisa-Sophie Gloger - [@Luisa-Sophie Gloger](https://correlaid.slack.com/team/U0
 
 Project Link: [https://github.com/CorrelAid/spark_workshop](https://github.com/CorrelAid/spark_workshop)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 
 
@@ -186,7 +186,7 @@ Project Link: [https://github.com/CorrelAid/spark_workshop](https://github.com/C
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
