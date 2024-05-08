@@ -52,9 +52,9 @@ Begin by following these detailed guidelines to set up your local environment se
 
 Please Pre-install the following software:
 
-- Git
-- IDE (e.g., VS Code or IntelliJ)
+- Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git 
 - Docker Desktop (Please refer to the instructions below based on your operating system.)
+- (Optional) IDE (e.g., VS Code or IntelliJ)
 
 #### Windows
 
@@ -156,6 +156,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Data 
 The data originates from a freely available dataset on Kaggle:
 [https://kaggle/grocery-dataset](https://www.kaggle.com/datasets/elvinrustam/grocery-dataset?resource=download)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
