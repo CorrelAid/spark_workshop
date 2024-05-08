@@ -145,6 +145,20 @@ Please follow the instructions to setup your local programming environment. Thes
 <p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
 
 <!-- LICENSE -->
+## Workshop - Tipps and Tricks 
+
+This section features helpful links aimed at assisting with workshop tasks.
+
+[PySpark Documentation: DataFrame Functions](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/functions.html)<br>
+[PySpark by Examples](https://sparkbyexamples.com/pyspark/pyspark-sql-functions/)<br>
+[PySpark: The 9 most useful functions to know](https://www.analyticsvidhya.com/blog/2021/05/9-most-useful-functions-for-pyspark-dataframe/)<br>
+[PySpark YouTube Tutorial: DataFrame Functions](https://www.youtube.com/watch?v=-0Hqcvaq5vY)
+
+When all else fails, just ask: either directly to us or to ChatGPT. 😉
+
+<p align="right">(<a href="#about-the-Workshop">back to top</a>)</p>
+
+<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
