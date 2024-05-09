@@ -4,12 +4,21 @@ OS=$(uname -s)
 # Define the image name
 IMAGE_NAME="jupyter/pyspark-notebook"
 CONTAINER_NAME_OR_ID="pyspark_workshop"
-SCRIPT_DIR=$(pwd)
+
+#-W is needed for Windows systems
+if [[ "$OS" =~ MINGW64_NT ]]; then
+    SCRIPT_DIR=$(pwd -W)
+else 
+    SCRIPT_DIR=$(pwd)
+fi
+
+echo $SCRIPT_DIR
+
 SRC_DIR_SRC=$SCRIPT_DIR/src
 SRC_DIR_DATA=$SCRIPT_DIR/data
 
 docker_container_creation () {
-    docker run --rm -p 10001:8888 \
+    docker run --rm -p 10001:8888 -p 4040:4040 \
     -v $SRC_DIR_SRC:/home/jovyan/src \
     -v $SRC_DIR_DATA:/home/jovyan/data \
     --name "$1" \
