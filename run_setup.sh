@@ -2,7 +2,7 @@
 # Detect the operating system
 OS=$(uname -s)
 # Define the image name
-IMAGE_NAME="jupyter/pyspark-notebook"
+IMAGE_NAME="quay.io/jupyter/pyspark-notebook:2024-05-06"
 CONTAINER_NAME_OR_ID="pyspark_workshop"
 
 #-W is needed for Windows systems
