@@ -4,7 +4,7 @@ OS=$(uname -s)
 # Define the image name
 IMAGE_NAME="jupyter/pyspark-notebook"
 CONTAINER_NAME_OR_ID="pyspark_workshop"
-SCRIPT_DIR=$(pwd -W)
+SCRIPT_DIR=$(pwd)
 SRC_DIR_SRC=$SCRIPT_DIR/src
 SRC_DIR_DATA=$SCRIPT_DIR/data
 
