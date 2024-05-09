@@ -149,7 +149,7 @@ Please follow the instructions to setup your local programming environment. Thes
 
 This section features helpful links aimed at assisting with workshop tasks.
 
-[PySpark Documentation: DataFrame Functions](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/functions.html)<br>
+[PySpark Documentation: DataFrame Functions](https://spark.apache.org/docs/3.5.1/api/python/index.html)<br>
 [PySpark by Examples](https://sparkbyexamples.com/pyspark/pyspark-sql-functions/)<br>
 [PySpark: The 9 most useful functions to know](https://www.analyticsvidhya.com/blog/2021/05/9-most-useful-functions-for-pyspark-dataframe/)<br>
 [PySpark YouTube Tutorial: DataFrame Functions](https://www.youtube.com/watch?v=-0Hqcvaq5vY)
