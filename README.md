@@ -1,6 +1,6 @@
 # Spark Workshop
 
-This workshop is scheduled for the week of June 17th to 21st, 2024.
+This workshop is scheduled for July 9th, 2024.
 
 <!-- TABLE OF CONTENTS -->
 <details>
