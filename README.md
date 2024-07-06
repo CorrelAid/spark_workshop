@@ -176,10 +176,10 @@ The data originates from a freely available dataset on Kaggle:
 <!-- CONTACT -->
 ## Contact
 
-Pia Baronetzky - [@Pia Baronetzky](https://correlaid.slack.com/team/U012LQGV81K) - pia@baronetzky.org <br>
-Daniel Manny - [@Daniel Manny](https://correlaid.slack.com/team/U013SMVNJJ1) - dmanny10@gmail.com<br>
-Jie Bao - [@Jie Bao](https://correlaid.slack.com/team/U9L0H3J3Z) - jie.bao@gmail.com<br>
-Luisa-Sophie Gloger - [@Luisa-Sophie Gloger](https://correlaid.slack.com/team/U06SBUAJ2HL) - luisa.gloger@gmx.de<br>
+Pia Baronetzky
+Daniel Manny
+Jie Bao - @jbao
+Luisa-Sophie Gloger
 
 Project Link: [https://github.com/CorrelAid/spark_workshop](https://github.com/CorrelAid/spark_workshop)
 
