@@ -177,9 +177,12 @@ The data originates from a freely available dataset on Kaggle:
 ## Contact
 
 Pia Baronetzky
+
 Daniel Manny
+
 Jie Bao - @jbao
-Luisa-Sophie Gloger
+
+Luisa-Sophie Gloger - @LAG1819
 
 Project Link: [https://github.com/CorrelAid/spark_workshop](https://github.com/CorrelAid/spark_workshop)
 
