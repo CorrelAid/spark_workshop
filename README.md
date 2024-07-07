@@ -118,7 +118,7 @@ Please follow the instructions to setup your local programming environment. Thes
 4. Access the port via a web browser:
   
     ```sh
-    http://localhost:10001:
+    http://localhost:10001/?token=<token>
     ```
 
 5. Enter the token as the password. You can find the token displayed in the terminal, as illustrated in the image below.:
